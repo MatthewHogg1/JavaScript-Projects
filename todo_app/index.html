@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/todo.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <input id="task"><button id="add">Add Item</button>
+    <hr>
+    <div id="todos"></div>
+
+    <script src="js/todo.js"></script>
+
+
+    <p id="myDog"></p>
+    <script>
+        var dog = {name:"Dax", breed:"Great Pyrenees", color:"White"};
+        var JSONstring = JSON.stringify(dog);
+        document.getElementById("myDog").innerHTML = JSONstring;
+    </script>
+    <script>
+        localStorage.setItem("Name", "Dax");
+        document.getElementById("myDog").innerHTML=localStorage.getItem("Name");
+    </script>
+    <br>
+    <br>
+    <p id="myCat"></p>
+    <script>
+        var cat = '{"name":"Jack", "breed":"Tabby", "color":"Ginger"}';
+        var JSONstring = JSON.parse(cat);
+        document.getElementById("myCat").innerHTML = JSONstring.name + " the " + JSONstring.breed;
+    </script>
+
+
+    <div class="footer"><p id="footer_text" onclick="myFunction()">Matthew Hogg</p>
+    <script>
+        function myFunction() {
+            document.getElementById("footer_text").style.color="red";
+        }
+    </script></div>
+
+</body>
+</html>
