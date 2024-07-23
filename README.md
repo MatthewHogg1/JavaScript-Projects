@@ -2,7 +2,7 @@
 
 Where all of my JavaScript course projects shall be uploaded to.
 <hr>
-<title>Student Portfolio</title>
+<bold>Student Portfolio</bold>
 My portfolio linked to GitHub to be viewed publically.
 
 <title>Pizza Menu</title>
