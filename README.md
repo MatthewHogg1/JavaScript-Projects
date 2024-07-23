@@ -14,3 +14,6 @@ Randomly rolls dice to select which of the two players goes first. Users can dwe
 <br><br>
 Calculator<br>
 A basic 4 function calculator. Users are able to add, subtract, multiply, and divide.
+<br><br>
+To Do App<br>
+Basic list function to record tasks, that cna be deleted once completed.
